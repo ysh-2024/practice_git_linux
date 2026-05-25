@@ -1,7 +1,0 @@
-#!/bin/bash
-sum=0
-while (( $# > 0 )); do
-    (( sum += $1 ))
-    shift
-done
-echo $sum
